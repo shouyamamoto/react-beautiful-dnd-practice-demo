@@ -22,7 +22,6 @@ export default class Task extends React.Component {
           {...provided.dragHandleProps}
           isDragging={snapshot.isDragging}
         >
-          {console.log(provided.dragHandleProps)}
           {this.props.task.content}
         </List>
       )}
